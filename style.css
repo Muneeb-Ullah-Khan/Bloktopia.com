@@ -1,0 +1,679 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+li{
+    list-style: none;
+}
+
+.chang-in{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 17px 40px;
+}
+.textareaforhead{
+      margin-left:50px ;
+      list-style: none;
+}
+
+
+/*--------------------------------------------------- INSTALL AND ROAD MAP ________----------------------_____________________________ */
+
+.navbar{
+    padding: 0 0 !important;
+}
+.rd-dicript{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 10px 24px;
+    margin: 0px 10px;
+    min-width: 70px !important;
+}
+
+.rd-dicript:hover{
+    color: #ec00bf;
+    border: 2px solid #ec00bf;
+    border-radius: 20px;
+}
+
+.rd-dicript:active{
+    color: #ec00bf
+}
+.rd-dicript:active, .rd-dicript:focus {
+    color: #ec00bf !important; 
+    border: 2px solid #ec00bf !important;
+    border-radius: 20px;
+}
+.fa-angle-down{
+    color: #ec00bf;
+    margin: 0px 5px;
+}
+.rd-map-style{
+    list-style: none;
+}
+.drpdn-for-rdscrpt{
+    color: #ffffff;
+    background-color: #000000;
+    width: fit-content;
+}
+
+.drpdn-for-main-rdscrpt{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.dropdown-divider{
+    background-color: #a07c7c;
+
+}
+
+.drpdn-for-rdscrpt:hover{
+    color: #ec00bf;
+    border: 2px solid #ec00bf;
+    border-radius: 20px;
+    background-color: #000000;
+    margin-left: 7px ;
+}
+
+/* <!------------------------ EARN START's here ---------------------> */
+
+.earn{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 10px 24px;
+    margin: 0px 10px;
+    min-width: 77px;
+}
+
+.earn:active, .earn:focus {
+    color: #ec00bf !important; 
+    border: 2px solid #ec00bf !important;
+    border-radius: 20px;
+}
+
+.earn:hover{
+    color: #ec00bf;
+    border: 2px solid #ec00bf;
+    border-radius: 20px;
+}
+
+.drp-for-earn{
+    color: #ec00bf !important;
+    background-color: #000000 !important;
+}
+
+.drp-op-for-ern{
+    color: white;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.drp-op-for-ern:hover{
+color: #ec00bf;
+border: 2px solid #ec00bf;
+border-radius: 20px;
+margin-left: 7px;
+background-color: #000000 !important;
+}
+
+/* block to FAQ's HEre */
+.all-non-ops a{
+ color: #ffffff;
+font-weight: 500;
+font-size: 16px;
+vertical-align: middle;
+padding: 10px 24px;
+margin: 0px 10px;
+}
+
+.all-non-ops a:hover{
+color: #ec00bf;
+}
+
+.all-non-ops a:active, .all-non-ops a:focus {
+color: #ec00bf !important; 
+}
+
+.socials-a {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 10px 24px;
+    margin: 0px 10px;
+}
+
+.socials-a:hover{
+    color: #ec00bf;
+    border: 2px solid #ec00bf;
+    border-radius: 20px;
+}
+
+.socials-a:active, .socials-a:focus {
+    color: #ec00bf !important; 
+    border: 2px solid #ec00bf !important;
+    border-radius: 20px;
+}
+
+.scldrpmenucl {
+    background-color: #000000;
+    color: #ffffff;
+    min-width: auto;
+    padding: 5px; 
+   
+}
+
+.drp-menu-for-scl {
+    width: 45px; 
+    text-align: center; 
+    padding: 5px 10px;
+}
+
+.drp-menu-for-scl i {
+    font-size: 25px;
+    color: white;
+    display: block; 
+}
+
+.drp-menu-for-scl:hover {
+    background-color: #ec00bf; 
+    border-radius: 5px;
+    
+}
+
+/* .........connect wallet............... */
+
+.connctwllt{
+    color: #ffffff;
+    background-color: #ec00bf;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+
+.connctwllt:hover{
+    opacity: 0.7 !important;
+    color: #ffffff;
+    background-color: #ec00bf;
+}
+
+
+
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 1160px) {
+
+    .earn i{
+        display: block;
+        margin-top: 5px;
+    }
+
+    .connctwllt{
+        color: #ffffff;
+        background-color: #ec00bf;
+        padding: 2px 8px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: bolder;
+    
+    }
+    
+    .connctwllt:hover{
+        opacity: 0.7 !important;
+        color: #ffffff;
+        background-color: #ec00bf;
+    }
+
+
+}
+
+
+/* -------------------------------------------- Carousal-------------------- */
+
+.firs-caro{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.just-1st-img img{
+    width: 80%;
+    margin: 30% auto;
+    border: #a07c7c 2px solid;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+
+.text-part{
+    margin: 30% 0;
+    margin-right: 20%;
+}
+
+.p1{
+    color: #ffffff;
+    font-size: 76px;
+    font-weight: bolder;
+    word-spacing: 0px;
+    line-height: 76px;
+    letter-spacing: 5px;
+}
+
+.p2{
+    font-size: 76px;
+    color: #ec00bf;
+    font-weight: bolder;
+    line-height: 15px;
+}
+
+.p3{
+    color: #ffffff;
+    font-weight: 500;
+    line-height:24px ;
+    margin-top: 50px;
+}
+
+.text-part-btn{
+    color: #ec00bf;
+    background-color: #312a2a;
+    padding:10px 60px;
+    border: #ec00bf 1px solid;
+    border-radius: 13px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.text-part-btn:hover{
+    color: #ffffff;
+    background-color: #ec00bf;
+    transition: 1s;
+}
+
+/* ----------------------------------------- THird Carosal-------------------------------- */
+
+.third-carosal-main{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+.thirdcaroimg img{
+  width: 300px;
+  margin: 00% auto;
+  margin-left: 100px;
+  
+}
+
+.thrdca-items{
+    margin: 30% 0;
+}
+
+.iphone3883{
+    width: 100%;
+}
+
+.trdca1{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 50px 0;
+}
+
+/*--------------------------- playstore btn-------------------- */
+
+/* From Uiverse.io by Yaya12085 */ 
+.playstore-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff5f5;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all  .2s ease;
+    text-decoration: none;
+  }
+
+  
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  .texts {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+  }
+  
+  .text-1 {
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  
+  .text-2 {
+    font-weight: 600;
+  }
+
+
+  /* ----------------------------------------------- Appstore bt --------------------------------------- */
+
+
+.playstore-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffffff;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all 0.2s ease;
+    text-decoration: none;
+  }
+  
+  
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  .texts {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+  }
+  
+  .text-1 {
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  
+  .text-2 {
+    font-weight: 600;
+  }
+  
+
+  /* ---------------------------------Fourth caro----------------------------- */
+  .fth-caro-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .frthcarimages img{
+    width: 500px;
+    margin: 10% auto;
+    border: #a07c7c 2px solid;
+    border-radius: 20px;
+    margin-left: 50px;
+  }
+
+  .forthcaroitms{
+    margin: 20% 0;
+  }
+
+  .forthcaroitms-fimgt{
+    width: 500px;
+  }
+
+  .forthcaroitms-text{
+    color: #fff5f5;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .container{
+    background-color: #000000;
+  }
+
+
+  /* -------------------------------------- Desighning indicators----------------------- */
+
+  .carousel-indicators{
+    border: #ec00bf 2px solid;
+    width: fit-content !important;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+
+
+  /* four column edit */
+
+  .div1forcol{
+    min-height: 360px;
+    max-height: 360px;
+    background-image: url(./Assets/earn_tile.jpg);
+    background-size: cover;
+    border: #ec00bf 2px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 0px;
+  }
+
+  .iconcolum4{
+         color: white ;
+         font-weight: bold;
+         font-size: 30px;
+  }
+
+  .tet4col{
+    color: #ffffff;
+    font-weight: bolder;
+    margin: 0px 10%;
+  }
+
+  .btn4col{
+    margin-bottom: 10px;
+  }
+
+  .div2forcol{
+    min-height: 360px;
+    background-image: url(./Assets/play_tile.jpg);
+    background-size: cover;
+    border: #ec00bf 2px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 0px;
+  }
+
+  .div3forcol{
+    min-height: 360px;
+    background-image: url(./Assets/dao_tile.jpg);
+    background-size: cover;
+    border: #ec00bf 2px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 0px;
+  }
+
+  .div4forcol{
+    min-height: 360px;
+    background-image: url(./Assets/nft_tile.jpg);
+    background-size: cover;
+    border: #ec00bf 2px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 0px;
+  }
+
+  /*--------------------------------------- Footer --------------------------- */
+  .footer-icons{
+    margin-top: 10px;
+  }
+.footer-icons ul li{
+    display: inline;
+    color: #fff5f5;
+    font-size: 40px;
+    padding: 50px 20px;
+    cursor: pointer;
+}
+
+.footer-icons ul li i:hover{
+    background-color: #ec00bf;
+    padding: 10px 10px;
+    border-radius: 40px;
+}
+
+.mainoffoote{
+    margin-top: 100px;
+    border-top:1px #a07c7c solid ;
+}
+
+.footrwtxt, .secrwicn{
+    color: #fff5f5;
+    display: inline;
+    font-size: 20px ;
+}
+
+.secrowtext{
+    margin: 10px 10px;
+}
+.secrowtext  p{
+    color: #ec00bf;
+    display: inline;
+    margin: 0px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 800px) {
+    .secrowtext  p{
+        display: block;
+    }
+
+    .footer-icons ul li{
+        font-size: 25px;
+    }
+
+                      /*----------------------------- First carousal --------------------------------*/
+    .firs-caro{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.just-1st-img img{
+    width: 80%;
+    margin: 10% auto;
+    border: #a07c7c 2px solid;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+
+.text-part{
+    margin: 0% 0;
+    margin-bottom: 20%;
+    margin-right: 20%;
+}
+    .firs-caro{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+                 /*-------------------------------------------- frth carousal ------------------------------------*/
+    .frthcarimages img{
+        width: 500px;
+        margin: 0 auto;
+        border: #a07c7c 2px solid;
+        border-radius: 20px;
+        margin-left: 50px;
+      }
+
+      .forthcaroitms{
+        margin: 5% 0;
+      }
+
+      .fth-caro-main{
+        display: flex;
+        flex-direction: column;
+      }
+
+      /*------------------------------------------------------- third carlao ------------------------------------------*/
+
+      .third-carosal-main{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .thirdcaroimg img{
+      width: 300px;
+      margin: 10% auto;
+      margin-bottom: 0;
+      margin-left: 100px;
+      
+    }
+    
+    .thrdca-items{
+        margin-bottom: 10%;
+    }
+    
+    .iphone3883{
+        width: 100%;
+    }
+    
+    .trdca1{
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 16px;
+        margin: 50px 0;
+    }
+  }
+
+  .thrdrow p{
+    color: #fff5f5;
+    font-weight: 500;
+    margin-top: 40px;
+  }
+
+  .fthrow{
+    color: #fff5f5;
+    font-weight: 500;
+  }
+
+  .frdtrwf{
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .frdtrwf h5{
+    color: #fff5f5;
+  }

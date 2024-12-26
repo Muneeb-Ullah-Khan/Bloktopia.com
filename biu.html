@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>BLOKTOPIA - The Home Of Crypto</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid chang-in">
+            <a class="navbar-brand"><img class="logo" src="./Assets/logo.png" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link rd-dicript" aria-current="page" href="#">Install</a>
+                    </li>
+                    <li class="nav-item dropdown rd-map-style">
+                        <a class="nav-link rd-dicript" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Roadmap <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu drpdn-for-main-rdscrpt">
+                            <li><a class="dropdown-item drpdn-for-rdscrpt" href="#">OVERVIEW</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item drpdn-for-rdscrpt" href="#">RELEASED</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item drpdn-for-rdscrpt" href="#">FINAL TESTING</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item drpdn-for-rdscrpt" href="#">DEVELOPMENT</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item drpdn-for-rdscrpt" href="#">TO COME</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link earn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Earn <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu drp-for-earn">
+                            <li><a class="dropdown-item drp-op-for-ern" href="#">JOBE</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item drp-op-for-ern" href="#">STAKING</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item all-non-ops">
+                        <a class="nav-link" aria-current="page" href="#">$BLOK</a>
+                    </li>
+                    <li class="nav-item all-non-ops">
+                        <a class="nav-link" aria-current="page" href="#">DAO</a>
+                    </li>
+                    <li class="nav-item all-non-ops">
+                        <a class="nav-link" aria-current="page" href="#">NFT's</a>
+                    </li>
+                    <li class="nav-item all-non-ops">
+                        <a class="nav-link" aria-current="page" href="#">FAQS</a>
+                    </li>
+                    <li class="nav-item dropdown socials">
+                        <a class="nav-link socials-a" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Socials <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu scldrpmenucl dropdown-menu-end">
+                            <li><a class="dropdown-item drp-menu-for-scl" href="#"><i
+                                        class="fa-brands fa-youtube"></i></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item drp-menu-for-scl" href="#"><i
+                                        class="fa-brands fa-x-twitter"></i></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item drp-menu-for-scl" href="#"><i
+                                        class="fa-brands fa-discord"></i></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item drp-menu-for-scl" href="#"><i
+                                        class="fa-brands fa-medium"></i></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item drp-menu-for-scl" href="#"><i
+                                        class="fa-brands fa-telegram"></i></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item drp-menu-for-scl" href="#"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <button class="btn connctwllt">Connect Wallet</button>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------ Carousal ------------------------------------->
+
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators ">
+                <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class=" firs-caro">
+                        <div class="just-1st-img"><img src="./Assets/welcome_lobby.png" class=" " alt="..."></div>
+
+                        <div class="text-part">
+                            <P class="p1">LIVE AT <br />1PM UTC</P>
+                            <p class="p2">11/12/2024</p>
+                            <P class="p3">Download the Bloktopia app now, and join us on 11th December at 1pm UTC, live
+                                in the metaverse.</P>
+                            <Button class="text-part-btn">Download</Button>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class=" firs-caro">
+                        <div class="just-1st-img"><img src="./Assets/welcome_lobby.png" class=" " alt="..."></div>
+
+                        <div class="text-part">
+                            <P class="p1">ROADMAP</P>
+                            <p class="p2">2024</p>
+                            <P class="p3">Explore released features, upcoming products, testing progress, and share your
+                                thoughts on future developments!</P>
+                            <Button class="text-part-btn">find out more</Button>
+
+                        </div>
+                    </div>
+                </div>
+                        
+                <div class="carousel-item">
+                    <div class="third-carosal-main">
+                        <div class=" thirdcaroimg">
+                            <img src="./Assets/iphone-screen.png" alt="">
+                        </div>
+                        <div class="thrdca-items">
+                            <img class="iphone3883" src="./Assets/metapass_logo_text.png" alt="">
+                            <p class="trdca1">Secure your username and digital identity by downloading M3TAPASS now,
+                                granting you access to exciting M3TASPACES events and the Bloktopia metaverse!</p>
+                                <a class="playstore-button" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
+                                      <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+                                    </svg>
+                                    <span class="texts">
+                                      <span class="text-1">GET IT ON</span>
+                                      <span class="text-2">Google Play</span>
+                                    </span>
+                                  </a>
+
+                                  <a href="#" class="playstore-button">
+                                    <span class="icon">
+                                      <svg
+                                        fill="currentcolor"
+                                        viewBox="-52.01 0 560.035 560.035"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        stroke="#ffffff"
+                                      >
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g
+                                          id="SVGRepo_tracerCarrier"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                        ></g>
+                                        <g id="SVGRepo_iconCarrier">
+                                          <path
+                                            d="M380.844 297.529c.787 84.752 74.349 112.955 75.164 113.314-.622 1.988-11.754 40.191-38.756 79.652-23.343 34.117-47.568 68.107-85.731 68.811-37.499.691-49.557-22.236-92.429-22.236-42.859 0-56.256 21.533-91.753 22.928-36.837 1.395-64.889-36.891-88.424-70.883-48.093-69.53-84.846-196.475-35.496-282.165 24.516-42.554 68.328-69.501 115.882-70.192 36.173-.69 70.315 24.336 92.429 24.336 22.1 0 63.59-30.096 107.208-25.676 18.26.76 69.517 7.376 102.429 55.552-2.652 1.644-61.159 35.704-60.523 106.559M310.369 89.418C329.926 65.745 343.089 32.79 339.498 0 311.308 1.133 277.22 18.785 257 42.445c-18.121 20.952-33.991 54.487-29.709 86.628 31.421 2.431 63.52-15.967 83.078-39.655"
+                                          ></path>
+                                        </g>
+                                      </svg>
+                                    </span>
+                                    <span class="texts">
+                                      <span class="text-1">Download form</span>
+                                      <span class="text-2">App store</span>
+                                    </span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="fth-caro-main">
+                        <div class="frthcarimages"><img src="./Assets/metaspace_banner.jpg" alt=""></div>
+                        <div class="forthcaroitms">
+                            <img class="forthcaroitms-fimgt" src="./Assets/metapass_logo_text.png" alt="">
+                            <p class="forthcaroitms-text">Come join Bloktopia’s live events venue and experience immersive content in the metaverse like never before!</p>
+                            <button class="text-part-btn">learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<!-- ------------------------------------------------- THird Body ------------------------------------------------ -->
+
+<div class="container">
+    <div class="fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 m-md-auto"><img style="width: 100%; margin: 10px 0;" src="./Assets/vr_headset_man.png" alt=""></div>
+            <div class="col-lg-4 col-md-12 m-md-auto"> <h1 style="color: #ffffff; text-align: center; margin: 10px 0;">WHAT IS BLOKTOPIA?</h1> <p style="color: #ffffff; text-align: center;">Bloktopia is the one-stop shop for everything Cryptocurrency and NFTs. Learn the basics or study advanced topics, earn money, play games, make connections, and much more in an immersive virtual environment!</p></div>
+            <div class="col-lg-4 col-md-12 m-md-auto"><img  style="width: 100%; margin: 10px 0;" src="./Assets/laptop_metaspaces.png" alt=""></div>
+        </div>
+    </div>
+</div>
+
+<!--================================================================= Video Section ______________________------------------------------------ -->
+
+<div class="container">
+    <div class="containerfluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"><video style="width: 100%;" src="./Assets/lepc.mp4" autoplay loop muted></video></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------------------------------------- 4 columns of products --------------------------------------------->
+
+<div class="container ">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-lg-6 ">
+                    <div class="div1forcol">
+             <div class="iconcolum4"><i class="fa-solid fa-money-bill-wheat"></i> Earn</div>
+             <div class="tet4col"><p>Join a JOBE or stake your $BLOK to generate passive income</p></div>
+             <div class="btn4col"><button class="text-part-btn">Earn Now</button></div>
+                    </div>
+            </div>
+            
+            <div class="col-md-12 col-lg-6">
+                <div class="div2forcol">
+                    <div class="iconcolum4"><i class="fa-solid fa-gamepad"></i> PLAY</div>
+                    <div class="tet4col"><p>Create your own unique virtual identity and join the Metaverse</p></div>
+                    <div class="btn4col"><button class="text-part-btn">Play Now</button></div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <div class="div3forcol">
+                    <div class="iconcolum4"><i class="fa-solid fa-check-to-slot"></i> DAO</div>
+                    <div class="tet4col"><p>Become a governor and have your say through Bloktopia’s voting system</p></div>
+                    <div class="btn4col"><button class="text-part-btn">Vote Now</button></div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <div class="div4forcol">
+                    <div class="iconcolum4"><i class="fa-solid fa-check-to-slot"></i> NFT's</div>
+                    <div class="tet4col"><p>Own revenue generating REBLOK or ADBLOK NFT’s</p></div>
+                    <div class="btn4col"><button class="text-part-btn">Purchase Now</button></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!---------------------------------- Foooter --------------------------------->
+
+<div class="container text-center mainoffoote">
+    <div class="contianer-fluid">
+        <div class="contianer-row">
+            <div class="col-sm-12 footer-icons">
+                <ul>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-x-twitter"></i></li>
+                    <li><i class="fa-brands fa-discord"></i></li>
+                    <li><i class="fa-brands fa-medium"></i></li>
+                    <li><i class="fa-brands fa-telegram"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-12">
+                <li class="secrwicn"><i class="fa-regular fa-copyright"></i></li>
+                <h3 class="footrwtxt"> Bloktopia all Rights Reserved 2024</h3>
+            </div>
+
+            <div class="col-sm-12 secrowtext">
+                <p>Privacy Policy</p>
+                <p>Terms And Condition</p>
+                <p>Data Deletion</p>
+            </div>
+
+            <div class="col-sm-12 thrdrow">
+                <p>Disclaimer. No Investment Advice. The information provided on this website does not constitute investment advice, financial advice, trading advice, or any other sort of advice and you should not treat any of the website's content as such. Bloktopia does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making any investment decisions.                </p>
+            </div>
+
+            <div class="col-sm-12 thrdrow">
+                <p>You can view any revisions or modifications to the SAFT Agreement by downloading the latest version here.</p>
+            </div>
+
+            <div class="col-sm-12 fthrow">
+                <p>The SAFT Agreement is password protected, please request the password via email to hello@bloktopia.com</p>
+            </div>
+
+            <div class="col-sm-12 frdtrwf">
+                <h5>This site is owned an operated by Lumocolor Limited BVI</h5>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
